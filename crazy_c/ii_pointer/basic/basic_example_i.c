@@ -10,6 +10,11 @@ int main() {
 
     int newValue = *pValue; // &取值，赋值给newValue
 
+    printf("value is %d, address is %p, newValue is %d\n", value, pValue, newValue);
+
+
+    *pValue = 2;
+
     printf("value is %d, address is %p, newValue is %d", value, pValue, newValue);
 
     return 0;

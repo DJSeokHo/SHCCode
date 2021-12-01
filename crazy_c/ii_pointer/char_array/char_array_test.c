@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-
+// 数组作为函数参数时，会被当做指针处理
 void fortune_cookie(char msg[]) {
 
     printf("Message reads: %s\n", msg);
