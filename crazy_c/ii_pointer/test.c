@@ -8,7 +8,7 @@ int main() {
     int x = 6;
     int y = 'd';
     
-    // & 取地址， * 取地址的值
+    // & 取值的地址， * 取地址的值
     printf("%d %p %d\n", a, &a, *&a);
     printf("%d %p %d\n", x, &x, *&x);
     printf("%c %p %c", y, &y, *&y);
